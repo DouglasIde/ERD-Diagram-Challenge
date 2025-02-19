@@ -21,4 +21,7 @@
 <li><strong><a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a></strong></li>
 
 <br><h1>📐Diagram ER (ERD/DER)</h1>
-<img src="https://github.com/DouglasIde/Shift-commerce/blob/main/DER-diagram.png" alt="diagrama DER">
+<img src="https://github.com/DouglasIde/Shift-commerce/blob/main/DER-diagram.png" alt="diagrama DER"><br>
+
+<h1>🏆Certificate</h1>
+<img src="https://github.com/DouglasIde/Shift-commerce/blob/main/README-Files/certificado/certificado-DIO-Douglas.jpg">
