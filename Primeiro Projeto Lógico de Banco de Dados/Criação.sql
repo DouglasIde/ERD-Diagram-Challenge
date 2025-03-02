@@ -70,20 +70,6 @@ CREATE TABLE Terceiro(
 );
 
 
--- INSERÇÃO DE DADOS --
--- Inserindo 10 itens fictítios
-INSERT INTO Produto (Categoria, Valor, Descricao) VALUES
-('Eletrônicos', 1499.99, 'Smartphone com tela AMOLED de 6.5 polegadas'),
-('Eletrodomésticos', 499.90, 'Liquidificador com 10 velocidades'),
-('Móveis', 799.00, 'Mesa de jantar de madeira para 6 pessoas'),
-('Vestuário', 89.90, 'Camiseta de algodão unissex'),
-('Esporte e Lazer', 299.90, 'Bola de futebol oficial em couro'),
-('Beleza', 59.90, 'Kit de maquiagem com 12 itens'),
-('Informática', 2499.99, 'Notebook com 16GB de RAM e SSD de 512GB'),
-('Automotivo', 399.90, 'Rádio automotivo com Bluetooth e USB'),
-('Brinquedos', 99.90, 'Quebra-cabeça de 1000 peças'),
-('Livros', 49.90, 'Romance clássico com capa dura');
-
 -- RELACIONAMENTO -- 
 CREATE TABLE Produto_Estoque(
 	ID INT AUTO_INCREMENT PRIMARY KEY,
