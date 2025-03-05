@@ -10,11 +10,19 @@ CREATE TABLE Produto (
     Descricao VARCHAR(100)
 );
 
+ALTER TABLE Produto ADD COLUMN id_estoque INT;
+
+ALTER TABLE Produto ADD COLUMN nome VARCHAR(45);
+
 -- Criando a Tabela Estoque
 CREATE TABLE Estoque(
 	ID INT AUTO_INCREMENT PRIMARY KEY,
     Endereco VARCHAR(50)
 );
+
+ALTER TABLE Estoque ADD COLUMN id_produto INT;
+
+ALTER TABLE Estoque ADD FOREIGN KEY (id_produto) REFERENCES Produto(ID);
 
 -- Criando a Tabela Estrega
 CREATE TABLE Entrega(
@@ -67,17 +75,6 @@ CREATE TABLE Terceiro(
     Razao_soc VARCHAR(45),
     Endereco VARCHAR(45),
     PFPJ VARCHAR(18)
-);
-
-
--- RELACIONAMENTO -- 
-CREATE TABLE Produto_Estoque(
-	ID INT AUTO_INCREMENT PRIMARY KEY,
-    ProdutoID INT,
-    EstoqueID INT,
-    Quantidade INT,
-    FOREIGN KEY (ProdutoID) REFERENCES Produto(ID) ON DELETE CASCADE,
-    FOREIGN KEY (EstoqueID) REFERENCES Estoque(ID) ON DELETE CASCADE
 );
 
 

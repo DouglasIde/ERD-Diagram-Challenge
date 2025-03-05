@@ -14,6 +14,21 @@ INSERT INTO Produto (Categoria, Valor, Descricao) VALUES
 ('Brinquedos', 99.90, 'Quebra-cabeça de 1000 peças'),
 ('Livros', 49.90, 'Romance clássico com capa dura');
 
+UPDATE Produto SET nome = CASE ID
+    WHEN 1 THEN 'Caderno'
+    WHEN 2 THEN 'Livro'
+    WHEN 3 THEN 'Caneta'
+    WHEN 4 THEN 'Calculadora'
+    WHEN 5 THEN 'Estojo'
+    WHEN 6 THEN 'Mochila'
+    WHEN 7 THEN 'Lápis'
+    WHEN 8 THEN 'Borracha'
+    WHEN 9 THEN 'Régua'
+    WHEN 10 THEN 'Agenda'
+END
+WHERE id IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+
 -- TABELA ESTOQUE
 INSERT INTO Estoque (Endereco) VALUES
 ('Rua das Flores, 123'),
@@ -26,6 +41,7 @@ INSERT INTO Estoque (Endereco) VALUES
 ('Avenida das Estrelas, 505'),
 ('Travessa do Horizonte, 606'),
 ('Estrada dos Pinheiros, 707');
+
 
 -- TABELA TERCEIRO
 INSERT INTO Terceiro (Razao_soc, Endereco, PFPJ) VALUES
@@ -106,6 +122,50 @@ INSERT INTO Pedido (Status, Frete, Descricao) VALUES
 ('Retornado', 10.00, 'Compra de calçados'),
 ('Entregue', 19.99, 'Pedido de brinquedos'),
 ('Aguardando aprovação', 12.50, 'Encomenda de ferramentas');
+
+-- TABELA RELACIONAMENTO PRODUTO PARA TERCEIRO
+INSERT INTO Produto_Terceiro (id_produto, id_terceiro, quantidade) VALUES
+(1, 1, 50), -- Produto 1 fornecido pelo Terceiro 1, com 50 unidades
+(1, 2, 30), -- Produto 1 fornecido pelo Terceiro 2, com 30 unidades
+(2, 3, 100), -- Produto 2 fornecido pelo Terceiro 3, com 100 unidades
+(3, 4, 200), -- Produto 3 fornecido pelo Terceiro 4, com 200 unidades
+(4, 5, 10), -- Produto 4 fornecido pelo Terceiro 5, com 10 unidades
+(5, 6, 75), -- Produto 5 fornecido pelo Terceiro 6, com 75 unidades
+(6, 7, 60), -- Produto 6 fornecido pelo Terceiro 7, com 60 unidades
+(7, 8, 90), -- Produto 7 fornecido pelo Terceiro 8, com 90 unidades
+(8, 9, 45), -- Produto 8 fornecido pelo Terceiro 9, com 45 unidades
+(9, 10, 120); -- Produto 9 fornecido pelo Terceiro 10, com 120 unidades
+
+INSERT INTO Pedido (Status, Frete, Descricao, id_cliente) VALUES
+('Concluído', 25.50, 'Pedido de materiais escolares', 1), 
+('Pendente', 15.75, 'Encomenda de livros', 2), 
+('Cancelado', 0.00, 'Pedido de eletrônicos', 3), 
+('Em andamento', 30.00, 'Compra de roupas', 4), 
+('Enviado', 18.25, 'Pedido de utensílios domésticos', 5), 
+('Aguardando pagamento', 20.00, 'Encomenda de cosméticos', 1), 
+('Processando', 22.50, 'Pedido de acessórios esportivos', 2),
+('Retornado', 10.00, 'Compra de calçados', 3),
+('Entregue', 19.99, 'Pedido de brinquedos', 4),
+('Aguardando aprovação', 12.50, 'Encomenda de ferramentas', 5); 
+
+INSERT INTO Entrega (Status, Cod_Rastreio, Data, id_pedido) VALUES
+('Entregue', 'AB12345678', '2025-03-01', 1),
+('Em trânsito', 'CD23456789', '2025-02-28', 2),
+('Aguardando retirada', 'EF34567890', '2025-03-02', 3), 
+('Não entregue', 'GH45678901', '2025-02-27', 4), 
+('Entregue', 'IJ56789012', '2025-03-01', 5); 
+
+UPDATE Estoque SET id_produto = 1 WHERE id = 1; 
+UPDATE Estoque SET id_produto = 2 WHERE id = 2; 
+UPDATE Estoque SET id_produto = 3 WHERE id = 3; 
+UPDATE Estoque SET id_produto = 4 WHERE id = 4;
+UPDATE Estoque SET id_produto = 5 WHERE id = 5; 
+UPDATE Estoque SET id_produto = 6 WHERE id = 6;
+UPDATE Estoque SET id_produto = 7 WHERE id = 7; 
+UPDATE Estoque SET id_produto = 8 WHERE id = 8; 
+UPDATE Estoque SET id_produto = 9 WHERE id = 9; 
+UPDATE Estoque SET id_produto = 10 WHERE id = 10; 
+
 
 
 
