@@ -1,5 +1,5 @@
-<h1 align="center">🛒Shift Commerce</h1>
-<img src="https://github.com/DouglasIde/Shift-commerce/blob/main/README-Files/ShiftCommerce-capa.jpg" alt="Imagem de Apresentação e capa">
+<h1 align="center">🟢 HEINEKEN Bootcamp Challenges - Douglas Yugo 🔴</h1>
+<img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/README-Files/capa/Douglas%20Heineken%20capa.jpg" alt="Imagem de Apresentação e capa">
 
 <div>
   <p align="center">
