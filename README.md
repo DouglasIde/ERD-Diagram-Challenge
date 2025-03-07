@@ -35,8 +35,11 @@
 <br><h1>📐Diagram ER (ERD/DER)</h1>
 <img src="https://github.com/DouglasIde/Shift-commerce/blob/main/DER-diagram.png" alt="diagrama DER"><br>
 
-<h1 id="certificate">🏆Certificate</h1>
+<h1 id="certificate">🏆Certificates</h1>
 <img src="https://github.com/DouglasIde/Shift-commerce/blob/main/README-Files/certificado/certificado-DIO-Douglas.jpg">
+<img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/README-Files/certificado/certificado-DIO2-Douglas.jpg">
+<img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/README-Files/certificado/certificado-DIO3-Douglas.jpg">
+<img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/README-Files/certificado/certificado-DIO4-Douglas.jpg">
 
 <h1 id="contribution">🤝 Contribution</h1>
 <p>Contributions are welcome! Feel free to open an issue or send a pull request.</p>
