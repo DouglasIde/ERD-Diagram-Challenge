@@ -29,8 +29,12 @@
 </ul>
 
 
-<h1>⚙Tools</h1>
+<h1 id="tools">⚙Tools</h1>
 <li><strong><a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a></strong></li>
+<li><strong><a href="https://www.microsoft.com/pt-br/microsoft-365/excel">Microsoft Excel</a></strong></li>
+<li><strong><a href="https://www.microsoft.com/pt-br/download/details.aspx?id=39379">Microsoft Power Query</a></strong></li>
+<li><strong><a href="https://copilot.microsoft.com/chats/kaqqCYr8yBEFnUm6zTDiz">Microsoft Copilot</a></strong></li>
+
 
 <br><h1>📐Diagram ER (ERD/DER)</h1>
 <img src="https://github.com/DouglasIde/Shift-commerce/blob/main/DER-diagram.png" alt="diagrama DER"><br>
