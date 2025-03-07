@@ -17,6 +17,17 @@
 <p>The project was developed as part of a challenge from <a href="https://www.dio.me/users/douglasymide">DIO</a>, whose objective was to redefine a DER diagram for a fictitious e-commerce store.
 <br>The name <strong>Shift</strong> suggest change and progress, indicating that the e-commerce would have a technology/eletronics theme. <em>Source: Microsoft Copilot.</em></p>
 
+<h1>🔖 Summary</h1>
+<ul>
+  <li><a href="challenge-1">🎖 Challenge 1</li>
+  <li><a href="challenge-2">🎖 Challenge 2</li>
+  <li><a href="challenge-3">🎖 Challenge 3</li>
+  <li><a href="challenge-4">🎖 Challenge 4</li>
+  <li><a href="tools">⚙ Tools</li>
+  <li><a href="certificate">🏆 Certificates</li>
+</ul>
+
+
 <h1>⚙Tools</h1>
 <li><strong><a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a></strong></li>
 
