@@ -19,12 +19,13 @@
 
 <h1>🔖 Summary</h1>
 <ul>
-  <li><a href="challenge-1">🎖 Challenge 1</li>
-  <li><a href="challenge-2">🎖 Challenge 2</li>
-  <li><a href="challenge-3">🎖 Challenge 3</li>
-  <li><a href="challenge-4">🎖 Challenge 4</li>
-  <li><a href="tools">⚙ Tools</li>
-  <li><a href="certificate">🏆 Certificates</li>
+  <li><a href="#challenge-1">🎖 Challenge 1</li>
+  <li><a href="#challenge-2">🎖 Challenge 2</li>
+  <li><a href="#challenge-3">🎖 Challenge 3</li>
+  <li><a href="#challenge-4">🎖 Challenge 4</li>
+  <li><a href="#tools">⚙ Tools</li>
+  <li><a href="#certificate">🏆 Certificates</li>
+  <li><a href="#contribution">🤝 Contribution</li>
 </ul>
 
 
@@ -34,5 +35,8 @@
 <br><h1>📐Diagram ER (ERD/DER)</h1>
 <img src="https://github.com/DouglasIde/Shift-commerce/blob/main/DER-diagram.png" alt="diagrama DER"><br>
 
-<h1>🏆Certificate</h1>
+<h1 id="certificate">🏆Certificate</h1>
 <img src="https://github.com/DouglasIde/Shift-commerce/blob/main/README-Files/certificado/certificado-DIO-Douglas.jpg">
+
+<h1 id="contribution">🤝 Contribution</h1>
+<p>Contributions are welcome! Feel free to open an issue or send a pull request.</p>
