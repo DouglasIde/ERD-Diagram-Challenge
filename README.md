@@ -28,6 +28,40 @@
   <li><a href="#contribution">🤝 Contribution</li>
 </ul>
 
+<h1 id="challenge-1">🎖 Challenge 1</h1>
+<h2>🎉 Introduction</h2>
+<p>O desafio consiste em refinar e criar um diagrama DER para um e-commerce, abordando as seguintes informações:
+<li><strong>Cliente PJ e PF:</strong> Uma conta pode ser de Pessoa Jurífica (PJ) ou Pessoa Física (PF), mas não pode conter ambas as informações.</li>
+<li><strong>Pagamento:</strong> Deve suportar mais de uma forma de pagamento.</li>
+<li><strong>Entrega:</strong> Deve incluir o status de entrega e o código de rastreamento.</li>
+</p><br>
+
+<!-- Descrição em inglês -->
+<p><i>The challenge consists of refining and creating an ERD diagram for an e-commerce platform, addressing the following information:
+<li><strong>Corporate and Individual Clients:</strong> An account can be either Corporate (PJ) or individual (PF), but it cannot contain both types of information.</li>
+<li><strong>Payment:</strong> Must support multiple payment methods.</li>
+<li><strong>Delivery:</strong> Must include delivery status and tracking code.</li>
+</i></p>
+
+<h2>📊 Diagram ERD</h2>
+<img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/1)%20Refinando%20um%20Projeto%20-%20E-commerce/DER-diagram.png" alt="Diagrama DER do desafio-1">
+<h2>📁 File</h2>
+
+<h1 id="challenge-2">🎖 Challenge 2</h1>
+<h3>🎉 Introduction</h3>
+<h3>📊 Diagram ERD</h3>
+<h3>📁 File</h3>
+
+<h1 id="challenge-3">🎖 Challenge 3</h1>
+<h3>🎉 Introduction</h3>
+<h3>📊 Diagram ERD</h3>
+<h3>📁 File</h3>
+
+<h1 id="challenge-4">🎖 Challenge 4</h1>
+<h3>🎉 Introduction</h3>
+<h3>📊 Diagram ERD</h3>
+<h3>📁 File</h3>
+
 
 <h1 id="tools">⚙Tools</h1>
 <li><strong><a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a></strong></li>
@@ -35,9 +69,6 @@
 <li><strong><a href="https://www.microsoft.com/pt-br/download/details.aspx?id=39379">Microsoft Power Query</a></strong></li>
 <li><strong><a href="https://copilot.microsoft.com/chats/kaqqCYr8yBEFnUm6zTDiz">Microsoft Copilot</a></strong></li>
 
-
-<br><h1>📐Diagram ER (ERD/DER)</h1>
-<img src="https://github.com/DouglasIde/Shift-commerce/blob/main/DER-diagram.png" alt="diagrama DER"><br>
 
 <h1 id="certificate">🏆Certificates</h1>
 <img src="https://github.com/DouglasIde/Shift-commerce/blob/main/README-Files/certificado/certificado-DIO-Douglas.jpg">
