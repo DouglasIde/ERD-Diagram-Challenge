@@ -28,7 +28,8 @@
   <li><a href="#contribution">🤝 Contribution</li>
 </ul>
 
-<h1 id="challenge-1">🎖 Challenge 1</h1>
+<!-- DESAFIO 1 -->
+<h1 id="challenge-1">🎖 Challenge 1 - Refinando um Projeto - E-commerce</h1>
 <h2>🎉 Introduction</h2>
 <p>O desafio consiste em refinar e criar um diagrama DER para um e-commerce, abordando as seguintes informações:
 <li><strong>Cliente PJ e PF:</strong> Uma conta pode ser de Pessoa Jurífica (PJ) ou Pessoa Física (PF), mas não pode conter ambas as informações.</li>
@@ -46,18 +47,51 @@
 <h2>📊 Diagram ERD</h2>
 <img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/1)%20Refinando%20um%20Projeto%20-%20E-commerce/DER-diagram.png" alt="Diagrama DER do desafio-1">
 <h2>📁 File</h2>
+<p>Você pode encontrar os arquivos do desafio <a href="https://github.com/DouglasIde/Heineken-Challenges/tree/main/1)%20Refinando%20um%20Projeto%20-%20E-commerce">AQUI</a>!!</p><br>
+<i><p>You can find the files of the challenge <a href="https://github.com/DouglasIde/Heineken-Challenges/tree/main/1)%20Refinando%20um%20Projeto%20-%20E-commerce">HERE</a>!!</p></i><br>
 
-<h1 id="challenge-2">🎖 Challenge 2</h1>
+<!-- DESAFIO 2 -->
+<h1 id="challenge-2">🎖 Challenge 2 - Construindo um Esquema Conceitual para BD</h1>
 <h3>🎉 Introduction</h3>
-<h3>📊 Diagram ERD</h3>
-<h3>📁 File</h3>
+<p>O desafio consistem em um sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica. Onde o objetivo é criar um esquema conceitual para o contexto desta oficina com base na narrativa fornecida:
+<li>Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões periódicas</li>
+<li>Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega.</li>
+<li>A partir da OS, calcula-se o valor de cada serviço, consultando-se uma tabela de referência de mão-de-obra</li>
+<li>O valor de cada peça também irá compor a OSO cliente autoriza a execução dos serviços</li>
+<li>A mesma equipe avalia e executa os serviços</li>
+<li>Os mecânicos possuem código, nome, endereço e especialidade</li>
+<li>Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão 
+</p><br>
 
-<h1 id="challenge-3">🎖 Challenge 3</h1>
+<!-- VERSÃO EM INGLES DO DESAFIO-2 -->
+<i><p>The challenge consists of a system for controlling and managing the execution of work orders in a mechanical workshop. The objective is to create a conceptual scheme for the context of this workshop based on the narrative provided:
+<li>Customers bring vehicles to the mechanic's workshop to be repaired or to undergo periodic servicing</li>
+<li>Each vehicle is assigned to a team of mechanics who identify the services to be carried out and fill in an OS with a delivery date.</li>
+<li>Based on the OS, the value of each service is calculated, consulting a labor reference table</li>
+<li>The value of each part will also be included in the customer's SO authorizing the services to be carried out</li>
+<li>The same team assesses and carries out the services</li>
+<li>The mechanics have a code, name, address and specialty</li>
+<li>Each SO has: number, issue date, value, status and completion date
+</p></i><br>
+
+<h3>📊 Diagram ERD</h3>
+<img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/2)%20Construindo%20um%20Esquema%20Conceitual%20para%20BD/diagrama-os.png" alt="Diagrama DER do desafio-2">
+<h3>📁 File</h3>
+<p>Você pode encontrar os arquivos do desafio <a href="https://github.com/DouglasIde/Heineken-Challenges/tree/main/2)%20Construindo%20um%20Esquema%20Conceitual%20para%20BD">AQUI</a>!!</p><br>
+<i><p>You can find the files of the challenge <a href="https://github.com/DouglasIde/Heineken-Challenges/tree/main/2)%20Construindo%20um%20Esquema%20Conceitual%20para%20BD">HERE</a>!!</p></i><br>
+
+<!-- DESAFIO 3 -->
+<h1 id="challenge-3">🎖 Challenge 3 - Primeiro Projeto Lógico de Banco de Dados</h1>
 <h3>🎉 Introduction</h3>
-<h3>📊 Diagram ERD</h3>
-<h3>📁 File</h3>
 
-<h1 id="challenge-4">🎖 Challenge 4</h1>
+<h3>📊 Diagram ERD</h3>
+<img src="https://github.com/DouglasIde/Heineken-Challenges/blob/main/3)%20Primeiro%20Projeto%20L%C3%B3gico%20de%20Banco%20de%20Dados/Diagram-ERD.png" alt="Diagrama DER do desafio-3">
+
+<h3>📁 File</h3>
+<p>Você pode encontrar os arquivos do desafio <a href="https://github.com/DouglasIde/Heineken-Challenges/tree/main/3)%20Primeiro%20Projeto%20L%C3%B3gico%20de%20Banco%20de%20Dados">AQUI</a>!!</p><br>
+<i><p>You can find the files of the challenge <a href="https://github.com/DouglasIde/Heineken-Challenges/tree/main/3)%20Primeiro%20Projeto%20L%C3%B3gico%20de%20Banco%20de%20Dados">HERE</a>!!</p></i><br>
+
+<h1 id="challenge-4">🎖 Challenge 4 - Construindo um Projeto Lógico de BD</h1>
 <h3>🎉 Introduction</h3>
 <h3>📊 Diagram ERD</h3>
 <h3>📁 File</h3>
